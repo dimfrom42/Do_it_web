@@ -16,7 +16,7 @@ body {
 	width: 400px;	
 	margin:30px auto;
 }
-		
+
 #signup fieldset {
 	border: 1px solid #ccc;
 	margin-bottom: 30px;
@@ -44,4 +44,10 @@ body {
 	letter-spacing: 1px;
 	margin: auto;
 	padding: 7px 25px;
+}
+
+#signup label {
+	float: left;
+	font-size: 13px;
+	width: 110px;
 }
