@@ -31,5 +31,15 @@
     <p>축하합니다!</p>
   </div>  
 
+  <script>
+    let startDate = new Date(prompt("시작 날짜"));
+    let curDate  = new Date();
+    let startTime = startDate.getTime();
+    let curTime = curDate.getTime();
+    let timeSpend = Math.round((curTime - startTime) / (1000 * 60 * 60 * 24));
+
+    document.querySelector('#result').innerText = timeSpend;
+  </script>
+
 </body>
 </html>
